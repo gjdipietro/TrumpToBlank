@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Trump to blank",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Replace the word Trump with the word of your choice",
+    "description": "The description of the application"
+  }
+}

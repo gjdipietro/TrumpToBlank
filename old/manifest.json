@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trump to Blank",
+  "description": "Finds every mention of the word Trump and change it to a word of your choice.",
+  "version": "0.0.1",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["yuuge.js"],
+    "run_at": "document_end"
+  }],
+
+  "permissions": [
+    "storage"
+  ]
+}
