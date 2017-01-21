@@ -1,4 +1,64 @@
-$padding: 20px;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+$red: #ae0114;
+$white: #FEFEFE;
+$unit: 1em;
+$grey: #F5F5F5;
+
 body {
-  padding: $padding;
+  background: $grey;
+  font-size: 1em;
+  font-family: 'Open Sans';
+  margin: 0 auto;
+  padding: 0;
+  width: 400px;
+}
+
+.header {
+	background: $red;
+	color: $white;
+	margin: 0 0 $unit 0;
+	padding: $unit;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.form {
+	padding: 0 $unit*2;
+	margin-bottom: 1em;
+}
+.form-label {
+	display: block;
+	font-weight: 700;
+	margin-bottom: $unit/2;
+}
+.form-input {
+	background: $white;
+  	border-color: #bbb;
+	border-width: 1px;
+	border-style: solid;
+	box-sizing: border-box;
+	color: #222;
+	display: block;
+	font-family: inherit;
+	font-size: 0.95em;	
+  	margin-bottom: $unit;
+  	padding: $unit/2;
+  	width: 100%;
+}
+.form-submit {
+	background: $red;
+  	border-color: transparent;
+  	color: $white;
+  	cursor: pointer;
+  	font-size: 0.95em;
+	font-family: inherit;
+	margin-bottom: $unit;
+	padding: $unit;
+	width: 100%;
+	&:hover {
+		background: darken($red, 5%);
+	}
+	&:focus {
+		background: darken($red, 10%);
+	}
 }

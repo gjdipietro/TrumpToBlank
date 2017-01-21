@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  background: #F5F5F5;
+  font-size: 1em;
+  font-family: 'Open Sans';
+  margin: 0 auto;
+  padding: 0;
+  width: 400px; }
+
+.header {
+  background: #ae0114;
+  color: #FEFEFE;
+  margin: 0 0 1em 0;
+  padding: 1em;
+  font-size: 1.4em;
+  text-align: center; }
+
+.form {
+  padding: 0 2em;
+  margin-bottom: 1em; }
+
+.form-label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5em; }
+
+.form-input {
+  background: #FEFEFE;
+  border-color: #bbb;
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  color: #222;
+  display: block;
+  font-family: inherit;
+  font-size: 0.95em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  width: 100%; }
+
+.form-submit {
+  background: #ae0114;
+  border-color: transparent;
+  color: #FEFEFE;
+  cursor: pointer;
+  font-size: 0.95em;
+  font-family: inherit;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 100%; }
+  .form-submit:hover {
+    background: #950111; }
+  .form-submit:focus {
+    background: #7b010e; }
+
+/*# sourceMappingURL=main.css.map */

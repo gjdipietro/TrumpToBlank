@@ -5,10 +5,14 @@
     <link href='styles/main.css' rel='stylesheet'>
   </head>
   <body>
-    <h1>Trump to [___]</h1>
-    <input type='text' id='blankWord' />
-    <input type='button' id='changeWord' value='Change Word'>
+    <h1 class='header'>Trump To What?</h1>
     
+    <form id="form" class='form' autocomplete="off">
+      <label for='form-input' class='form-label'>What should Trump change to</label>
+      <input type='text' id='form-input' class='form-input' placeholder='Enter the word of your choice' />
+      <input type='submit' id='form-submit' class='form-submit' value='Change Trump'>
+    </form>
+
     <script src="scripts/app.js" type='text/javascript'></script>
   </body>
 </html>

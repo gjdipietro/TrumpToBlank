@@ -1,8 +1,8 @@
 {
-  "name": "TrumpToBlank",
+  "name": "Trump To What?",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Finds every mention of the word Trump and change it to a word of your choice.",
+  "description": "Finds every mention of the word Trump and changes it to the word of your choice.",
   "default_locale": "en",
   "icons": {
     "16": "images/icon-16.png",
@@ -13,13 +13,13 @@
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
     },
-    "default_title": "Trump to blank",
+    "default_title": "Trump to What?",
     "default_popup": "popup.html"
   },
   "permissions": [
     "contentSettings",
-    "cookies",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "content_scripts": [{ 
     "matches": ["*://*/*"],

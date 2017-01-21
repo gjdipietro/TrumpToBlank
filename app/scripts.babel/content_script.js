@@ -33,9 +33,8 @@ function crawlWithVal(val) {
 	}
 
 	function handleText(textNode) {
-		var v = textNode.nodeValue;	
+		var v = textNode.nodeValue;
 		if (val) {
-			v = v.replace(/\bExample\b/g, val);
 			v = v.replace(/\bTrump\b/g, val);
 			v = v.replace(/\bTRUMP\b/g, val);
 		}
@@ -52,3 +51,9 @@ function init(callback) {
 }
 
 init(crawlWithVal);
+
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+    if (request.word) {
+		crawlWithVal(request.word)
+    }
+});
