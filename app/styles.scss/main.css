@@ -1,15 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 body {
   background: #F5F5F5;
   font-size: 1em;
-  font-family: 'Open Sans';
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 0 auto;
   padding: 0;
   width: 400px; }
 
 .header {
-  background: #ae0114;
-  color: #FEFEFE;
+  color: #ae0114;
   margin: 0 0 1em 0;
   padding: 1em;
   font-size: 1.4em;
@@ -40,7 +38,7 @@ body {
 
 .form-submit {
   background: #ae0114;
-  border-color: transparent;
+  border: 1px solid #950111;
   color: #FEFEFE;
   cursor: pointer;
   font-size: 0.95em;

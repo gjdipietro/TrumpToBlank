@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 $red: #ae0114;
 $white: #FEFEFE;
 $unit: 1em;
@@ -7,15 +6,14 @@ $grey: #F5F5F5;
 body {
   background: $grey;
   font-size: 1em;
-  font-family: 'Open Sans';
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 0 auto;
   padding: 0;
   width: 400px;
 }
 
 .header {
-	background: $red;
-	color: $white;
+	color: $red;
 	margin: 0 0 $unit 0;
 	padding: $unit;
 	font-size: 1.4em;
@@ -47,7 +45,7 @@ body {
 }
 .form-submit {
 	background: $red;
-  	border-color: transparent;
+  	border:1px solid darken($red, 5%);
   	color: $white;
   	cursor: pointer;
   	font-size: 0.95em;
